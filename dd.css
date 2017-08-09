@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #fff;
+}
+	
+On a a modern browser that supports addEventListener and the Class List API (shims are available for both on their respective MDN pages to add support for older broswers), you could do this.
+
+CSS
+
+.w8-button {
+    display: table;
+    padding: 7px 15px 8px 15px;
+    border: none;
+    font-family:"open_sans_lightregular";
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.w8-button.iconize {
+    padding-right: 50px !important;
+    background: url("http://imageshack.us/a/img856/3817/ticklf.png") no-repeat 5px center;
+}
+.w8-button.iconize2 {
+    padding-right: 50px !important;
+    background: url("http://imageshack.us/a/img822/1917/crossn.png") no-repeat 5px center;
+}

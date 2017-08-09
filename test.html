@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<button onclick="myFunction()" style="font-size:16px"><i class="fa fa-camera"></i></button>
+<button onclick="myFunction()" style="font-size:16px"><i class="fa fa-question-circle-o"></i></button>
+<button onclick="myFunction()" style="font-size:16px"><i class="fa fa-book"></i></button>
+</body>
+<script type="text/javascript">
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your name:", "");
+    if (person == null || person == "") {
+        txt = "";
+    } else {
+        txt = "" + person + "";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</html> 
+
+
+
